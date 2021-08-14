@@ -1,0 +1,31 @@
+.button-container button {
+    width: 160px;
+    height: 43px;
+    border-radius: 25px;
+    font-size: medium;
+    font-family: inherit;
+}
+
+.button-container .blue {
+    background: var(--main-color);
+    color: white;
+    border: none;
+}
+
+.button-container .blue:hover {
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+.button-container .green {
+    background: transparent;
+    color: var(--tertiary-color);
+    border: solid 3px var(--secondary-color);
+    transition: 0.2s;
+}
+
+.button-container .green:hover {
+    background: var(--secondary-color);
+    transition: 0.2s;
+    cursor: pointer;
+}

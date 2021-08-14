@@ -1,0 +1,15 @@
+.home-container {
+    min-width: 1200px;
+}
+
+.banner-container {
+    background: var(--main-color);
+    margin: auto;
+    height: 70vh;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}

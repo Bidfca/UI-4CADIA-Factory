@@ -1,0 +1,35 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    padding: 20px;
+}
+
+.nav-container .buttons-container {
+    display: flex;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-container li {
+    font-size: larger;
+    margin: 0 30px;
+}
+
+.nav-container li:hover {
+    cursor: pointer;
+}
+
+.nav-container .blue {
+    margin-left: 15px;
+}
+
+.nav-container .logo {
+    display: block;
+    max-height: 100px;
+    padding: 20px;
+}
