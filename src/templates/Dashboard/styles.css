@@ -1,0 +1,39 @@
+.dashboard-container {
+    min-width: 1200px;
+}
+
+.dashboard-bar {
+    background: var(--main-color);
+    height: 150px;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transaction {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 30px 120px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+}
+
+.transaction > p {
+    display: inline-block;
+    word-break: break-word;
+    margin-right: 30px;
+    max-width: 900px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: grey;
+}

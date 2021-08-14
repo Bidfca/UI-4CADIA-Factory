@@ -1,0 +1,50 @@
+.login-form {
+    padding: 60px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.login-form>* {
+    margin-top: 30px;
+}
+
+.login-form p {
+    color: white;
+}
+
+.login-form span {
+    color: red;
+    background: lightcoral;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.login-form a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login-form button {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: medium;
+    color: white;
+    background: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.login-form button:hover {
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
